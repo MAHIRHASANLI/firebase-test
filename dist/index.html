@@ -1,0 +1,44 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase - test project</title>
+</head>
+
+<body>
+    <div style="display: flex;justify-content: space-around;margin: 50px;">
+
+        <div>
+            <h1>Hello world!</h1><button class="add-data">Add New Data</button>
+            <div class="firebase-data"></div>
+        </div>
+        <div>
+            <div>
+                <h2>Sign Up</h2>
+                <form id="form-firebase-signUp" style="display: flex;flex-direction: column;gap: 20px;">
+                    <input type="email" id="username-signUp" autocomplete="username">
+                    <input type="password" id="password-signUp" autocomplete="current-password">
+                    <button type="submit">submit</button>
+                </form>
+            </div>
+            <div>
+                <div style="margin-bottom: 20px;">
+                    <h2>Sign In</h2><button id="signOut">Sign Out</button>
+                </div>
+
+                <form id="form-firebase-signIn" style="display: flex;flex-direction: column;gap: 20px;">
+                    <input type="email" id="username-signIn" autocomplete="username">
+                    <input type="password" id="password-signIn" autocomplete="current-password">
+                    <button type="submit">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./bundle.js"></script>
+</body>
+
+</html>
